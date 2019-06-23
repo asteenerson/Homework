@@ -1,4 +1,3 @@
-I discovered that there is a known issue with Jupyter notebooks not displaying correctly in GitHub. 
-Due to this I have added a zip file with my notebook as an ipynb file and as a html file to ensure you can see the my code and the dataframes correctly.
+I discovered that there is an issue with python displaying '$' since this is a command in github. '$' in github does not allow the table data to display properly. To ensure the dataframes display correctly in github this you can escape the '$' command by instead typing'/$' 
 
-Please let me know if you have any questions.
+'/$' will show up as '$' in Jupyter however in github it shows up as '/$'. Although there is a / in the table cell it atleast displayed the dataframe correctly. 
