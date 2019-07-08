@@ -1,4 +1,0 @@
-Three trends based on the Open Weather API data
-1.	In addition to temperatures raising, humidity is also higher in cities that are closer to the equator.
-2.	Cites that are closer to the equator are more likely to have cloudiness. Cities that are further away from the equator are less likely to have cloudiness.
-3.	Wind speeds are lower in cities that are closer to the equator. Higher wind speeds appear more often in cities that are further from the equator.  
