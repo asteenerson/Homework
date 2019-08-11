@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Resources/styles.css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+        <a class="navbar-brand" style="background-color: #1fa5a5; color: white; overflow: hidden; padding: 15px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: bolder;" href="index.html">Lattitude</a>
+        <button class="navbar-toggler ml-auto" style="background-color: #1fa5a5;" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle links" style="color: #747373" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="vis_maxtemp_page.html">Max Temperature</a>
+                    <a class="dropdown-item" href="vis_humidity_page.html">Humidity</a>
+                    <a class="dropdown-item" href="vis_cloudiness_page.html">Cloudiness</a>
+                    <a class="dropdown-item" href="vis_windspeed_page.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link links" style="color: #747373;" href="comparison_page.html">Comparison <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" style="color: #747373" href="data_page.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+<body>
+        <div class="container">
+                <div class= "row">
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                        <div class="box1">
+                            <div>
+                                <h2 class= "header">Wind Speed</h2>
+                                <hr>
+                            </div>
+                                <img src="Resources/assets/images/Fig4.png" class="left_img_vis">
+                            <div class="body">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered. 
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                        <div class="box2">
+                            <div>
+                            <h4 class="header"> Visualizations</h4>
+                            <hr>
+                        </div>
+                        <div>
+                                <a href="vis_maxtemp_page.html"><img src="Resources/assets/images/Fig1.png" class="right_img"></a>
+                                <a href="vis_humidity_page.html"><img src="Resources/assets/images/Fig2.png" class="right_img"></a>
+                                <a href="vis_cloudiness_page.html"><img src="Resources/assets/images/Fig3.png" class="right_img"></a>
+                                <a href="vis_windspeed_page.html"><img src="Resources/assets/images/Fig4.png" class="right_img_vis"></a>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+<nav class="navbar, fixed-bottom" style="background-color: #1fa5a5; height:55px"></nav>
+<nav class="navbar, fixed-bottom" style="background-color: #747373; height:50px">
+    <span class="navbar-text bottomnav" style="color: #ffffff;">
+        &#169 Copyright Aaron 2019
+    </span>
+</nav>  
+
+</html>

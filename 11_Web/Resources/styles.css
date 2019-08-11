@@ -1,0 +1,467 @@
+.navbar-brand {
+    position: relative;
+    left: 5%;
+}
+
+body {
+    background-color: #ebe9e9;
+}
+
+.box1 {
+    background-color: white;
+    padding: 30px;
+    float: right;
+    margin: 40px 0px 15px 0px;
+}
+
+.box2 {
+    background-color: white;
+    padding: 30px;
+    margin: 40px 0px 0px 0px;
+}
+
+.header {
+    color: #1fa5a5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.body {
+    font-size: 18px;
+    color: #747373;
+    font-weight: 500;
+}
+
+.left_img {
+    width: 200px;
+    height: 200px;
+    float: left; 
+}
+
+.right_img {
+    width: 142px;
+    height: 142px;
+}
+
+.right_img:hover {
+    width: 142px;
+    height: 142px;
+    border: 3px solid #1fa5a5;
+}
+
+.bottomnav {
+    margin-left: 43%;
+    margin-right: 40%;
+    overflow-y: hidden;
+}
+
+.h6 {
+    color: black;
+    padding: 0px 0px 15px 0px;
+}
+
+.comp_img {
+    width: 49%;
+    height: 49%;
+    padding: 20px;
+}
+
+.image_box {
+    position: relative;
+
+}
+
+.h41 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1fa5a5;
+    font-weight: bold;
+    font-size: 24px;
+    top: 20%;
+    left: 16%;
+}
+
+.h42 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1fa5a5;
+    font-weight: bold;
+    font-size: 24px;
+    top: 20%;
+    left: 66%;
+}
+.h43 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1fa5a5;
+    font-weight: bold;
+    font-size: 24px;
+    top: 57%;
+    left: 20%;
+}
+
+.h44 {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1fa5a5;
+    font-weight: bold;
+    font-size: 24px;
+    top: 57%;
+    left: 64%;
+}
+
+.left_img_vis {
+    width: 100%;
+    height: 100%;
+}
+
+.right_img_vis {
+    width: 142px;
+    height: 142px;
+    border: 3px solid #1fa5a5;
+}
+
+.dataframe {
+    margin: 0px 0px 65px 0px;
+}
+
+@media (max-width: 1200px) {
+    .box1 {
+        background-color: white;
+        padding: 30px;
+        float: right;
+        margin: 40px 0px 15px 0px;
+    }
+
+    .box2 {
+        background-color: white;
+        padding: 30px;
+        margin: 40px 0px 15px 0px;
+    }
+
+    .body {
+        font-size: 16px;
+        color: #747373;
+        font-weight: 500;
+    }
+    
+    .right_img {
+        width: 112px;
+        height: 112px;
+    }
+    
+    .right_img:hover {
+        width: 112px;
+        height: 112px;
+        border: 3px solid #1fa5a5;
+    }
+
+    .bottomnav {
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+   
+    .h41 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 22%;
+        left: 14%;
+    }  
+
+    .h42 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 22%;
+        left: 64%;
+    }
+    .h43 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 58%;
+        left: 18%;
+    }
+
+    .h44 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 58%;
+        left: 62%;
+    }
+    .right_img_vis {
+        width: 112px;
+        height: 112px;
+        border: 3px solid #1fa5a5;
+    }
+    
+    
+}
+
+@media (max-width: 991px) {
+    .box1 {
+        background-color: white;
+        padding: 30px;
+        float: right;
+        margin: 40px 0px 15px 0px;
+    }
+
+    .box2 {
+        background-color: white;
+        padding: 30px;
+        margin: 20px 0px 85px 0px;
+    }
+    
+    .right_img {
+        width: 154px;
+        height: 154px;
+    }
+    
+    .right_img:hover {
+        width: 154px;
+        height: 154px;
+        border: 3px solid #1fa5a5;
+    }
+
+    .bottomnav {
+        margin-left: 40%;
+        margin-right: 35%;
+    }
+
+    .comp_img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .h41 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 10%;
+        left: 33%;
+    }
+    .h42 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 31.75%;
+        left: 40%;
+    }
+    .h43 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 54%;
+        left: 38%;
+    }
+    .h44 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 24px;
+        top: 76%;
+        left: 37%;
+    }
+    .right_img_vis {
+        width: 154px;
+        height: 154px;
+        border: 3px solid #1fa5a5;
+    }
+    .navbar {
+        background-color: #1fa5a5 !important;
+    }
+    .links{
+        color: white !important;
+    }   
+}
+@media (max-width: 768px ) {
+    .box1 {
+        background-color: white;
+        padding: 30px;
+        float: right;
+        margin: 40px 0px 15px 0px;
+    }
+
+    .box2 {
+        background-color: white;
+        padding: 30px;
+        margin: 20px 0px 85px 0px;
+    }
+    
+    .body {
+        font-size: 14px;
+        color: #747373;
+        font-weight: 500;
+    }
+    
+    .right_img {
+        width: 109px;
+        height: 109px;
+    }
+    
+    .right_img:hover {
+        width: 109px;
+        height: 109px;
+        border: 3px solid #1fa5a5;
+    }
+
+    .bottomnav {
+        margin-left: 37%;
+        margin-right: 28%;
+    }
+    .comp_img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .h41 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 20px;
+        top: 13.5%;
+        left: 30%;
+    }
+    .h42 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 20px;
+        top: 34.5%;
+        left: 39%;
+    }
+    .h43 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 20px;
+        top: 55.25%;
+        left: 37%;
+    }
+    .h44 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 20px;
+        top: 76.25%;
+        left: 36.5%;
+    }
+    .right_img_vis {
+        width: 109px;
+        height: 109px;
+        border: 3px solid #1fa5a5;
+    }
+}
+@media (max-width: 378px ) {
+    .box1 {
+        background-color: white;
+        padding: 30px;
+        float: right;
+        margin: 40px 0px 15px 0px;
+    }
+
+    .box2 {
+        background-color: white;
+        padding: 10px;
+        margin: 20px 0px 85px 0px;
+    }
+    
+    .body {
+        font-size: 14px;
+        color: #747373;
+        font-weight: 500;
+    }
+    
+    .right_img {
+        width: 74px;
+        height: 74px;
+    }
+    
+    .right_img:hover {
+        width: 64px;
+        height: 64px;
+        border: 3px solid #1fa5a5;
+    }
+
+    .bottomnav {
+        margin-left: 25%;
+        margin-right: 15%;
+    }
+    .comp_img {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .h41 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 16px;
+        top: 16%;
+        left: 26%;
+    }
+    .h42 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 16px;
+        top: 36%;
+        left: 35%;
+    }
+    .h43 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 16px;
+        top: 56%;
+        left: 34%;
+    }
+    .h44 {
+        position: absolute;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #1fa5a5;
+        font-weight: bold;
+        font-size: 16px;
+        top: 76%;
+        left: 33%;
+    }
+    .right_img_vis {
+        width: 74px;
+        height: 74px;
+        border: 3px solid #1fa5a5;
+    }
+    .header {
+        font-size: 18px;
+    }
+    .h6 {
+        font-size: 12px;
+    }
+    .table-responsive {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+}
