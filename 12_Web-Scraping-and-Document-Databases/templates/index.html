@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mission to Mars</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <h1>Mission to Mars</h1>
+            <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class= "row">
+            <div class= "col-12">   
+                <h3><strong>Latest Mars News</strong></h3>
+                <h6 style= "margin: 0; padding: 0;"><strong>{{ mars.news_title }}</strong></h6>
+                <h10 style= "margin: 0; padding: 0; font-size: 13px;">{{ mars.news_p }}</h10>
+            </div>
+        </div>
+        <br>
+        <div class= "row">
+            <div class= "col-7"> 
+                <h4 style="padding: 10px 0px 0px 0px;"><strong>Featured Mars Image</strong></h4>
+                <img src="{{ mars.featured_image_url }}" style=" width: 100%" alt="featured_image">
+            </div>
+            <div class= "col-5">
+                <div style = "border-style: solid; border-color: lightgray; padding: 10px 10px 0px 10px;">
+                    <h6 style = "padding: 10px 10px 0px 0px;"><strong>Current Weather on Mars</strong></h6>
+                    <h8 style= "font-size: 14px;">{{ mars.mars_weather }}</h8>
+                    <br>
+                    <br>
+                </div>
+                <div style = "padding: 30px 0px 0px 0px;">
+                    <h6><strong>Mars Facts</strong></h6>
+                    <h8 style="font-size: 14px;">{{ mars.mars_facts | safe}}</h8>
+                </div>
+            </div>
+        </div>
+        <div class= "row">
+            <div class= "col-12">
+                <h3 style="text-align: center; padding: 50px 0px 10px 0px;"><strong>Mars Hemispheres</strong></h3>
+                <hr>
+            </div>
+            <div class= "col-6">
+                <div>
+                    <img src="{{ mars.hemisphere_image_urls[3]['img_url'] }}" style= "float: right; width: 80%;" alt="image3">
+                    <h4 style= "float: right; width: 80%; font-size: 20px; padding: 10px;"><strong>{{ mars.hemisphere_image_urls[3]['title'] }}</strong></h4>
+                </div>
+                <div>
+                    <img src="{{ mars.hemisphere_image_urls[1]['img_url'] }}" style= "float: right; width: 80%;" alt="image1">
+                    <h4 style= "float: right; width: 80%; font-size: 20px; padding: 10px;"><strong>{{ mars.hemisphere_image_urls[1]['title'] }}</strong></h4>
+                </div>
+            </div>   
+            <div class= "col-6">
+                <div>
+                    <img src="{{ mars.hemisphere_image_urls[0]['img_url'] }}" style= "float: left; width: 80%;" alt="image0">
+                    <h4 style= "float: left; width: 80%; font-size: 20px; padding: 10px;"><strong>{{ mars.hemisphere_image_urls[0]['title'] }}</strong></h4>
+                </div>
+                <div>
+                    <img src="{{ mars.hemisphere_image_urls[2]['img_url'] }}" style= "float: left; width: 80%;" alt="image2">
+                    <h4 style= "float: left; width: 80%; font-size: 20px; padding: 10px;"><strong>{{ mars.hemisphere_image_urls[2]['title'] }}</strong></h4>
+                </div>   
+            </div>    
+        </div>
+    </div>  
+</body>
+</html>
