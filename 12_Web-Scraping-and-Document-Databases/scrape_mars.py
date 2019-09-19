@@ -58,15 +58,15 @@ def scrape_info():
     browser.visit(url)
     time.sleep(1)
 
-     # Scrape page into Soup
+    # Scrape page into Soup
     html = browser.html
     soup = BeautifulSoup(html, 'html.parser')
 
     # Narrow search 
-    results = soup.find_all('div', class_='content')
+    mars_weather_tweet = soup.find('div', attrs={"class": "tweet", "data-name": "Mars Weather"})
 
     # Mars weather
-    mars_weather = results[0].p.text[:-29]
+    mars_weather = mars_weather_tweet.find('p', 'tweet-text').get_text()
 
 
     #-----Visit Mars Facts-----#
